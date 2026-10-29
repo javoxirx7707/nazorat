@@ -101,13 +101,7 @@ const productsData = [
     availability: 'Low stock',
   },
 ];
-echo "# nazorat" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/javoxirx7707/nazorat.git
-git push -u origin main
+
 const Dashboard = () => {
   const [view, setView] = useState('list');
   const [selectedProduct, setSelectedProduct] = useState(null);
